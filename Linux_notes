@@ -1,0 +1,37 @@
+TASK 1
+
+    • ls = Shows the contents of the directory
+    • pwd = Helps you find out where you are and prints out the working directory
+    • mkdir  learning_unix (name of the new directory you added) = Used for making new directories
+    • cd learning_unix (name of the new directory you added) = Used to change directories -from home to learning_unix. (cd allows you to change directories relative to where you are now)
+    • cd /home/shirley = Go to the shirley directory that is beneath the home directory that is at the top level of the system (the root)
+    • two dots .. = used to move upwards one level in the directory. The two dots are used to refer to to the parent directory of wherever you are.
+    • Cd ../../../tmp = You can also always change to a directory based on its absolute location. E.g, if you are working in the /home/shirley/ learning_unix directory and you want to change to the /tmp directory  
+    • touch = Used to create new files (e.g touch Readme.md)      
+    • cp = Copies new files to a new location with a new name depending on the parameters. Can also copy directories whether recursively (includes subdirectories) or not    
+                                                                                                                                                                                                                                                                                                                                                                                                       
+TASK 2
+
+    • touch = Creates a file
+    • mv = moves file to another location
+    • rm = Deletes the file
+
+TASK 3
+
+    • Create 3 files, umuzi.md, cohort.md, recruits.md
+    • nano  (name of the file you want to write in) = Used to write in a file
+    • cat = Concatenate and Displays the result on the screen (what you wrote on the file). Can also be used to combine one or more files and put them in a different file all together
+    • cat >> filename = Used to append or add text on the terminal
+
+TASK 4
+
+    • locate = Locates files
+    • find = searches for a file and sends the results of that file to another file (find /home/shirley -type f -name umuzi.md > search.md)
+    • cp = copy (name of the file) to (changed name)
+    • cd -  = allows you to change back to your previous directory.
+
+TASK 5, 6 & 7
+
+    • (find / -type f -name "*.pdf") = Used to find files that end with pdf on the computer.
+    • (f -mtime -1 -ls/-print) = Displays files that were modified on the day
+
